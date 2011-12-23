@@ -1,6 +1,6 @@
 # Ruby Sections
 
-## Part 1 (180 Minutes)
+## Part 1 - Fundamentals (180 Minutes)
 
 ### Outcomes
 
@@ -41,12 +41,43 @@
   * Each section of Ruby in 100
 * Have tried experiments in IRB
 
-## Part 2
+## Part 2 - Data and I/O (180 Minutes)
 
-* Running Code from Files
-* Inputting Text, Outputting Text
-* Understanding Types: String, Integers, Arrays, and Hashes
+### Outcomes
 
-## Part 3
+* SWBAT run Ruby code from a file
+* SWBAT use `gets` to take in data
+* SWBAT format and clean data coming in from `gets`
+* SWBAT convert input strings into integers
+* SWBAT store data into and retrieve data from Arrays
+* SWBAT store data into and retrieve data from Hashes
+* SWBAT apply ideas of collection and iteration to text input
 
-## Part 4
+### Process
+
+### Products
+
+## Part 3 - Shoes (180 Minutes)
+
+### Outcomes
+
+* SWBAT initialize a Shoes application
+* SWBAT to place elements including string output, buttons, and images
+* SWBAT organize elements into columns and rows
+* SWBAT to react to events including: button click, key press, timer
+
+### Process
+
+### Products
+
+## Part 4 - Your Own Shoes (180 Minutes)
+
+### Outcomes
+
+* SWBAT mix skills around data types, collections, and Shoes/GUIs
+
+### Process
+
+### Products
+
+* Writing a Shoes-powered project
