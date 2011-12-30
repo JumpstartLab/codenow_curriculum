@@ -1,0 +1,202 @@
+To Open Ruby:
+
+1) Click the windows logo thingy
+2) Where it says "Search Programs and Files"
+   type this: cmd
+3) It should find a little black box, click it
+4) type this: irb
+   hit <enter>
+5) You'll get something like this:
+   irb(main):001:0>
+   
+   
+"Escape Hatch":
+  Ctrl-C, then <enter>
+  
+Objects, Attributes, and Methods:
+
+  What is a chair?
+    Something you sit in
+    Able to be sat on?
+    Four legs? Five Legs?
+    Back piece
+    Flat part you sit on
+    --
+    The idea of "Chairness"
+    What does it mean to be a chair?
+      -- Some legs
+      -- A back
+      -- A seating area
+      
+  "Class" - An Abstract Idea
+    What is the general shape of ALL
+    things that fit in this group
+
+  "Instance" - A Specific ONE of that Class
+    An actual one we can look at,
+    measure, use, etc  
+  
+  Writing a Class
+    Name in "CamelCase": words are mashed
+      together, with capitals for each word
+    Starts with the word "class"
+    Ends with the word "end"
+  
+  Creating an Instance of a Class
+    You type: ClassName.new
+    Or, to store it in a variable:
+      variable_name = ClassName.new
+  
+  Asking an Instance Questions
+    "What class are you?"
+      variable.class
+    "What do you know how to do?"
+      variable.methods
+      (Methods are things an object knows
+       how to do)
+  
+  Writing Our Own Methods
+    A "method" is something that an object 
+    can do
+    Write methods _inside_ a class
+    So it'll look like this:
+    
+    class ClassName
+      def method_name
+        # do something
+      end
+    end
+  
+  For Example:
+  
+    class PersonalChef
+      def make_toast
+        puts "Making Your Toast"
+      end
+    end
+  
+  Finding Unique Methods
+    I want to find all the things a PersonalChef
+    knows how to do, that other objects DO NOT
+  
+    There is a class named Object
+    We can create instances with Object.new
+    
+  Parameters - How you want it done
+    Write a method to take a parameter like this:
+      def make_toast(color)
+        puts "Making your toast #{color}"
+      end
+  
+  Method Chaining
+    Executing methods one after another
+    For instance:
+      
+      
+      
+      
+  Return Value
+    The result of an instruction/method
+    In Ruby, every instruction returns a value
+    
+    For Example:
+      class PersonalChef
+        def make_toast(color)
+          puts "Making your toast #{color}"
+          return self
+        end
+      end
+      
+==== DAY 2 ====
+
+START MENU
+Type "Notepad" into the search
+Click on Notepad
+-- once it's open --
+FILE => SAVE AS => day2.rb
+Instead of "Text Document",
+  Change it to "ALL FILES"
+
+cd Documents
+dir
+
+Quick:
+  Make a program that prints this:
+  
+  Today is the 3 day of the week,
+  28 day of the month
+  362 day of the year.
+  
+  Part 2: "Tell Lies"
+    Tomorrow's day of the week
+    Yesterday's day of the month
+    Last Wednesday's day of the year
+    
+  Challenge:
+    (delete your old program first)
+    Ask "How many Hellos do you want?"
+    Take in the number
+    Print "Hello" that many times
+
+===== Ardunio ====
+
+1 ) Wire up a 1-LED circuit connected to pin 11
+2 ) Write the program to turn on that LED
+3 ) Make it work
+
+
+You know you're in IRB if you see:
+
+irb(main):001:0>
+
+This is for experimenting with Ruby
+=================
+You know you're on the command prompt if you see:
+
+C:\Users\codenow\Documents
+
+This is for moving around the filesystem, or running files
+
+
+-----------------
+
+In NOTEPAD
+  Click FILE => NEW
+  Click FILE => SAVE AS
+  Name it "decrypt.rb"
+  Change to "ALL FILES"
+  Click SAVE
+  
+  
+-----------------
+
+ Now...let's have ONE program that does this:
+ 
+   ASK whether we want to ENCRYPT or DECRYPT
+   ASK for the MESSAGE
+   Give us the OUTPUT  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

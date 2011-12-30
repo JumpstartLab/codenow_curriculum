@@ -55,6 +55,13 @@
 
 ### Process
 
+* Running Ruby from a File
+* Puts and Return Values
+* Using Gets
+* Manipulating Strings
+* Integers vs Strings
+* Converting Between Integers or Strings
+
 ### Products
 
 ## Part 3 - Shoes (180 Minutes)

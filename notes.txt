@@ -1,0 +1,90 @@
+Arduino Notes:
+
+Conditional Statement
+  Most Basic:
+    if( condition ){
+      // do something
+    }
+    
+  That means:
+    if the condition is true,
+      do what's in the brackets.
+    if the condition is NOT true,
+      do nothing.
+        
+  Power of 2:
+    2 ^ 8 = 256
+    
+   Base-2: 1111111111111111
+  Base-10: 1023
+  
+=============== DAY 3: RUBY =================
+
+Arrays
+  Start and end with square brackets: []
+  They're lists, used to store a set of information
+  Example Arrays:
+    [] called the "empty array"
+    [1, 2] holds the numbers 1 and 2
+    ["a","b","c"] has three strings
+  Finding Elements:
+    array[index] gets the element at position "index"
+    array.first gets the first element
+    array.last gets the last element
+  Adding Elements
+    array[index] = X stores X into position "index"
+    Ex: meals[3] = "dessert"
+    array << X adds X on to the end
+    Ex: meals << "tacos"
+  Methods on Arrays
+    array.join connects them together
+    Ex: ["a","b"].join == "ab"
+    Ex: ["a","b"].join("-") == "a-b"
+    array.include? checks if an element is in the array
+    Ex: ["a","b"].include?("a") == true
+    Ex: ["a","b"].include?("c") == false
+  Iterating
+    Means going through a set one at a time
+    Ex: ["a","b","c"].each do
+          puts "Hello"
+        end
+    Would print "Hello" three times
+    Or, using a variable inside pipes:
+    Ex: ["a","b","c"].each do |letter|
+          puts "Current one is #{ letter }"
+        end
+    Would print this:
+        Current one is a
+        Current one is b
+        Current one is c
+    You can pick any name you want for
+      the variable
+      
+Basic Encryption (in Pseudo-Code)
+  1) Take an original string
+  2) Go through the letters one by one and...
+  3) Convert the letter to a number
+  4) Add 2 to the number
+  5) Convert the number back to a letter
+  6) Print all the result letters
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
